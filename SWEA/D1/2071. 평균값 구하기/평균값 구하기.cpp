@@ -25,7 +25,7 @@ int main(int argc, char** argv)
 			sum += num;               // sum에 num값을 합한다.
 		}
 	
-	cout << "#" << test_case << " " << round(sum / 10.0) << '\n';
+	cout << "#" << test_case << " " << round(sum / 10.0) << endl;
 	// round는 반올림이기 때문에 sum을 10.0으로 나눈 값을 round로 반올림
 	}
 	return 0;
