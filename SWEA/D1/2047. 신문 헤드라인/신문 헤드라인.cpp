@@ -3,6 +3,7 @@
 using namespace std;
 
 // 소문자 > 대문자 변환
+// 아스키코드 이용한것 두개 나뉨, 함수 라이브러리 사용한 것
 int main(int argc, char** argv)
 {
 	string s;
@@ -27,3 +28,25 @@ int main(int argc, char** argv)
 
 	return 0;
 }
+
+/*
+#include<iostream>
+#include<string>
+using namespace std;
+
+// 소문자 > 대문자 변환
+int main(int argc, char** argv)
+{
+	string s;
+	cin >> s;
+
+	for (int i = 0; i < s.length(); i++)
+	{
+		s[i] = toupper(s[i]); // 소문자 -> 대문자
+		//s[i] = tolower(s[i]); // 대문자 -> 소문자
+	}
+	cout << s;
+
+	return 0;
+}
+*/
