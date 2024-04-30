@@ -6,15 +6,13 @@ int main(int argc, char** argv)
 {
 	int N;
 	cin >> N;
-
-	// N의 약수를 구할때는,
-	// 1부터 N의 제곱근까지의 수만 0으로 나눠떨어지는지 확인!
-
+	// N값이 작을때 사용하는 풀이( N값이 커지면 비효율적)
+	// 모든경우를 탐색하게 되는 O(N) 시간복잡도
 	for (int i = 1; i <= N; i++)
 	{
 		if (N % i == 0)
 		{
-            cout << i << " ";
+			cout << i << " ";
 		}
 	}
 	return 0;
