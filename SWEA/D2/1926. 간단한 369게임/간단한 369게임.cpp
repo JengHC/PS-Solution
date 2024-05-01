@@ -38,3 +38,5 @@ int main(int argc, char** argv)
 	}
 	return 0;
 }
+// 이런것도 하나 푸는데 모르는게 줜나 많네 
+// shipR 계속 해보자 
