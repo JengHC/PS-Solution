@@ -3,7 +3,7 @@
 #define INT long long
 using namespace std;
 
-int arr[1000001], N; // 배열과 변수 선언
+int arr[1000001], N; // 배열과 변수 선언 왜 백만일의 숫자냐, 배열의 인덱스는 0부터 시작
 
 int main(int argc, char** argv)
 {
