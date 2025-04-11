@@ -5,6 +5,6 @@ int main() {
     int N;
     cin >> N;
 
-    cout<< Your Core is << N <<point<<endl;
+    cout<< Your score is << N << point <<endl;
     return 0;
 }
