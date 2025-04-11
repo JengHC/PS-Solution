@@ -10,8 +10,8 @@ int main() {
     int a=a+c;
     int b = b-c;
 
-    cout<< a <<\n;
-    cout<< b <<\n;
-    cout<< c <<\n;
+    cout<< a << endl;
+    cout<< b <<endl;
+    cout<< c <<endl;
     return 0;
 }
