@@ -6,7 +6,7 @@ int main() {
     double gravityScale = 0.165;   
     double wg = weight * gravityScale;
 
-    cout<<fixed<<precision(6);    
+    cout<<fixed<<setprecision(6);    
     cout << weight << " * " << gravityScale << " = " << wg << endl;
 
     return 0;
