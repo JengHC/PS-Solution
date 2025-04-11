@@ -9,7 +9,7 @@ int main() {
     cout<<fixed;
     cout.precision(1);
 
-    cout<<A+B<< " " << A/B <<endl;
+    cout<<A+B<< " " << (double)(A+B)/2 <<endl;
 
     return 0;
 }
