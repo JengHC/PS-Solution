@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int a = c;
-    int a = T;
-    cout<< C;
+    char a = 'C';
+    a='T'
+    cout<< a;
     return 0;
 }
