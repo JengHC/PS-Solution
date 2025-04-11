@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
     int weight = 13;
-    int gravityScale = 0.165;   
-    int wg = weight*gravityScale
+    double gravityScale = 0.165;   
+    double wg = weight*gravityScale
 
     cout << fixed << presicion(6);
     cout << weight << " * " << gravityScale << " = " << wg << endl;
