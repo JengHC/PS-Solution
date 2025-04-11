@@ -4,9 +4,9 @@ using namespace std;
 int main() {
     int weight = 13;
     double gravityScale = 0.165;   
-    double wg = weight*gravityScale
+    double wg = weight*gravityScale;
 
-    cout << fixed << presicion(6);
+    cout << fixed << presision(6);
     cout << weight << " * " << gravityScale << " = " << wg << endl;
     return 0;
 }
