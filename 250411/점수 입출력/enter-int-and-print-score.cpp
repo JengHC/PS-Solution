@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    cin<<N
+    cin<<N;
 
     cout<< Your Core is << " N " <<point<<endl;
     return 0;
