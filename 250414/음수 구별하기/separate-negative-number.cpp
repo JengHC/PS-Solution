@@ -5,10 +5,9 @@ int main() {
     int num;
 
     cin>>num;
-
+    cout<<num<<endl;
     if(num<0)
     {
-        cout<<num<<endl;
         cout<<"minus"<<endl;
     }
     return 0;
