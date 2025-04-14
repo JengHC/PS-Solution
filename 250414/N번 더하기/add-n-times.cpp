@@ -5,12 +5,11 @@ int main() {
     int A,B;
     cin>>A>>B;
 
-    int sum = A;
 
     for(int i = 0; i < B; i++)
     {
-        sum += A;
-        cout<< sum << endl;
+        A+=B;
+        cout<< A << endl;
     }
     return 0;
 }
