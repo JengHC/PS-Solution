@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-    int a;
+    char a;
+    cin>>a;
 
-    for(a = 0; a < 8; a++)
+    for(int i = 0; i < 8; i++)
     {
         cout<< "G" ;
     }
