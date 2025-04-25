@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int M,W;
+    cin >> M;
+    cin >> W;
+
+    if(M == 0)
+    {
+        if(W>=19)
+        {
+            cout<<"MAN"<<endl;
+        }
+        else
+        {
+            cout<<"BOY"<<endl;
+        }
+    }
+    else
+    {
+        if(W>=19)
+        {
+            cout<<"WOMAN"<<endl;
+        }
+        else
+        {
+            cout<<"GIRL"<<endl;
+        }
+    }
+
+    return 0;
+}
